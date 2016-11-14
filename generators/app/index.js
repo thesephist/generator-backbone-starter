@@ -63,7 +63,7 @@ module.exports = yeoman.Base.extend({
         type: 'input',
         name: 'description',
         message: 'Project description:',
-        default: 'A lightweight web application boilerplate'
+        default: 'A lightweight single page web app boilerplate for Backbone.js apps'
       }
     ]
 

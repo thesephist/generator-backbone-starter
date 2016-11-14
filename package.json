@@ -1,8 +1,8 @@
 {
-  "name": "generator-vanilla-starter",
+  "name": "generator-backbone-starter",
   "version": "0.1.0",
-  "description": "Generator for a lightweight web application",
-  "homepage": "github.com/thesephist/generator-vanilla-starter",
+  "description": "A lightweight single page web app boilerplate for Backbone.js apps",
+  "homepage": "github.com/thesephist/generator-backbone-starter",
   "author": {
     "name": "Linus Lee",
     "email": "100479lee@gmail.com",
@@ -41,7 +41,7 @@
       "mocha": true
     }
   },
-  "repository": "git@github.com:thesephist/generator-vanilla-starter.git",
+  "repository": "git@github.com:thesephist/generator-backbone-starter.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
