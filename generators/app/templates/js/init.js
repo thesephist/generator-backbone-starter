@@ -6,7 +6,7 @@ const <%= bigshortname %> = {
 
     objects: {},
 
-    views: {],
+    views: {},
 
     singletonViews: {}
 

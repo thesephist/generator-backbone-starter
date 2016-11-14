@@ -8,8 +8,8 @@ var gulp = require('gulp'),
 
 var paths = {
     libs: [
-        'js/underscore.min.js',
-        'js/backbone.min.js'
+        'js/libs/underscore.min.js',
+        'js/libs/backbone.min.js'
     ],
     scripts: [
         'js/init.js',
@@ -47,7 +47,6 @@ gulp.task('compile-libs', function() {
     return gulp.src(paths.libs)
         .pipe(sourcemaps.init())
         .pipe(concat('js/libs.min.js'))
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest('./'));
 });
 
