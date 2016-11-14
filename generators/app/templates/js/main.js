@@ -16,7 +16,7 @@
     <%= bigshortname %>.singletonViews.base = new <%= bigshortname %>.views.Base();
 
     // attach views
-    $("main").appendChild(<%= bigshortname %>.singletonViews.base.render().$el);
+    $("main").append(<%= bigshortname %>.singletonViews.base.render().$el);
 
     // load questions and choices
     <%= bigshortname %>.objects.bases.fetch();

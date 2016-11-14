@@ -1,10 +1,7 @@
-var $ = document.querySelector.bind(document),
-    $$ = document.querySelectorAll.bind(document);
-
-var <%= bigshortname %>Utils = {
+const <%= bigshortname %>Utils = {
 
     eventAdder: function(selector, eventName, callback) {
-        var targets = $$(selector) || [],
+        var targets = this.getNodeArray(selector) || [],
             tLength = targets.length;
 
         for (i = 0; i < tLength; i++) {

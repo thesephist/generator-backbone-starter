@@ -25,8 +25,9 @@ describe('generator-backbone-starter:app', function () {
       'js/main.js',
       'js/main.min.js',
       'js/utils.js',
-      'js/libs/underscore.js',
-      'js/libs/backbone.js',
+      'js/libs/jquery.min.js'.
+      'js/libs/underscore.min.js',
+      'js/libs/backbone.min.js',
       'js/init.js',
       'js/models.js',
       'js/views.js',

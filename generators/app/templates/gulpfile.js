@@ -8,6 +8,7 @@ var gulp = require('gulp'),
 
 var paths = {
     libs: [
+        'js/libs/jquery.min.js',
         'js/libs/underscore.min.js',
         'js/libs/backbone.min.js'
     ],
