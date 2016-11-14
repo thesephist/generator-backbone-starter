@@ -7,7 +7,7 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
 
     this.log(yosay(
-      'Welcome to ' + chalk.blue('generator-vanilla-starter') + '!'
+      'Welcome to ' + chalk.blue('generator-backbone-starter') + '!'
     ));
 
     var prompts = [
