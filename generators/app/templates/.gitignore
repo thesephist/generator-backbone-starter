@@ -1,5 +1,7 @@
 .sass-cache/
 *.css.map
+*.min.css
+*.min.js
 *.scssc
 node_modules/
 yarn.lock
